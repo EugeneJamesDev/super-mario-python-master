@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Extract game source
-        run: unzip -q source/super-mario-python-master-source.zip -d game
+        run: unzip -q source/super-mario-python-master-source-v2.zip -d game
       - name: Install browser build tools
         run: python -m pip install -r game/config/requirements-web.txt
       - name: Build browser game
